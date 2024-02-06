@@ -1,2 +1,3 @@
 # onecx-db-check
-Database connection check
+
+Check database connection
