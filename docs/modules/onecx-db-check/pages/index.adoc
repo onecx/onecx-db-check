@@ -1,0 +1,10 @@
+include::onecx-db-check-attributes.adoc[opts=optional]
+
+== onecx-db-check
+
+include::docs.adoc[opts=optional]
+
+=== Configuration
+include::onecx-db-check.adoc[opts=optional]
+
+include::onecx-db-check-docs.adoc[opts=optional]

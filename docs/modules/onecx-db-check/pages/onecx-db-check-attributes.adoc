@@ -1,0 +1,5 @@
+
+:docker-registry: https://github.com/onecx/onecx-db-check/pkgs/container/onecx-db-check
+:helm-registry: https://github.com/onecx/onecx-db-check/pkgs/container/charts%2Fonecx-db-check
+:properties-file: src/main/resources/application.properties
+:helm-file: src/main/helm/values.yaml
