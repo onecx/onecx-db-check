@@ -1,0 +1,37 @@
+
+include::onecx-db-check-attributes.adoc[opts=optional]
+
+[.extension.table.searchable, cols="50,.^15,.^15,.^20"]
+|===
+h| Extensions
+h| Documentation
+h| Configuration
+h| Version
+
+| quarkus-jdbc-postgresql
+
+| https://quarkus.io/guides/datasource[Link]
+| https://github.com/quarkusio/quarkusio.github.io/blob/develop/_generated-doc/latest/config/quarkus-jdbc-postgresql.adoc[Link]
+| 3.9.3
+
+| quarkus-arc
+
+| https://quarkus.io/guides/cdi-reference[Link]
+| https://github.com/quarkusio/quarkusio.github.io/blob/develop/_generated-doc/latest/config/quarkus-arc.adoc[Link]
+| 3.9.3
+
+| quarkus-container-image-docker
+
+| https://quarkus.io/guides/container-image[Link]
+| https://github.com/quarkusio/quarkusio.github.io/blob/develop/_generated-doc/latest/config/quarkus-container-image-docker.adoc[Link]
+| 3.9.3
+
+
+| quarkus-agroal
+
+| 
+| 
+| 3.9.3
+
+
+|===
