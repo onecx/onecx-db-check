@@ -15,7 +15,7 @@ import io.quarkus.test.junit.QuarkusTest;
 class DatabaseCheckMainMockTest extends AbstractTest {
 
     @Test
-    public void testException() throws SQLException {
+    void testException() throws SQLException {
 
         var config = Mockito.mock(DatabaseCheckConfig.class);
         Mockito.when(config.enabled()).thenReturn(true);
@@ -33,7 +33,7 @@ class DatabaseCheckMainMockTest extends AbstractTest {
     }
 
     @Test
-    public void testDisableConfig() {
+    void testDisableConfig() {
 
         var config = Mockito.mock(DatabaseCheckConfig.class);
         Mockito.when(config.enabled()).thenReturn(false);
