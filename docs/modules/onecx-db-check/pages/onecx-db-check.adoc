@@ -1,21 +1,19 @@
-
 :summaryTableId: onecx-db-check
 [.configuration-legend]
 icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime
 [.configuration-reference.searchable, cols="80,.^10,.^10"]
 |===
 
-h|[[onecx-db-check_configuration]]link:#onecx-db-check_configuration[Configuration property]
-
+h|[.header-title]##Configuration property##
 h|Type
 h|Default
 
-a| [[onecx-db-check_onecx-db-check-enabled]]`link:#onecx-db-check_onecx-db-check-enabled[onecx.db-check.enabled]`
-
+a| [[onecx-db-check_onecx-db-check-enabled]] [.property-path]##link:#onecx-db-check_onecx-db-check-enabled[`onecx.db-check.enabled`]##
 
 [.description]
 --
 Enable or disable database check.
+
 
 ifdef::add-copy-button-to-env-var[]
 Environment variable: env_var_with_copy_button:+++ONECX_DB_CHECK_ENABLED+++[]
@@ -23,16 +21,16 @@ endif::add-copy-button-to-env-var[]
 ifndef::add-copy-button-to-env-var[]
 Environment variable: `+++ONECX_DB_CHECK_ENABLED+++`
 endif::add-copy-button-to-env-var[]
---|boolean 
+--
+|boolean
 |`true`
 
-
-a| [[onecx-db-check_onecx-db-check-sleep]]`link:#onecx-db-check_onecx-db-check-sleep[onecx.db-check.sleep]`
-
+a| [[onecx-db-check_onecx-db-check-sleep]] [.property-path]##link:#onecx-db-check_onecx-db-check-sleep[`onecx.db-check.sleep`]##
 
 [.description]
 --
 Sleep check period.
+
 
 ifdef::add-copy-button-to-env-var[]
 Environment variable: env_var_with_copy_button:+++ONECX_DB_CHECK_SLEEP+++[]
@@ -40,14 +38,15 @@ endif::add-copy-button-to-env-var[]
 ifndef::add-copy-button-to-env-var[]
 Environment variable: `+++ONECX_DB_CHECK_SLEEP+++`
 endif::add-copy-button-to-env-var[]
---|link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html[Duration]
-  link:#duration-note-anchor-{summaryTableId}[icon:question-circle[title=More information about the Duration format]]
+--
+|link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[Duration] link:#duration-note-anchor-{summaryTableId}[icon:question-circle[title=More information about the Duration format]]
 |`PT2S`
 
 |===
+
 ifndef::no-duration-note[]
 [NOTE]
-[id='duration-note-anchor-{summaryTableId}']
+[id=duration-note-anchor-onecx-db-check]
 .About the Duration format
 ====
 To write duration values, use the standard `java.time.Duration` format.
@@ -64,3 +63,5 @@ In other cases, the simplified format is translated to the `java.time.Duration` 
 * If the value is a number followed by `d`, it is prefixed with `P`.
 ====
 endif::no-duration-note[]
+
+:!summaryTableId:

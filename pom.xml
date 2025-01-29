@@ -7,7 +7,7 @@
     <parent>
         <groupId>org.tkit.onecx</groupId>
         <artifactId>onecx-quarkus3-parent</artifactId>
-        <version>0.72.0</version>
+        <version>0.72.3</version>
     </parent>
 
     <artifactId>onecx-db-check</artifactId>
@@ -26,6 +26,10 @@
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-agroal</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.tkit.quarkus.lib</groupId>
+            <artifactId>tkit-quarkus-agroal</artifactId>
         </dependency>
 
         <!-- TEST -->
