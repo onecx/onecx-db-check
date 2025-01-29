@@ -10,6 +10,7 @@ include::onecx-db-check-attributes.adoc[opts=optional]
 ----
 quarkus.banner.enabled=false
 quarkus.datasource.db-kind=postgresql
+quarkus.datasource.metrics.enabled=true
 quarkus.datasource.devservice.enabled=false
 ----
 ====
