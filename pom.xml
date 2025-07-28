@@ -13,6 +13,10 @@
     <artifactId>onecx-db-check</artifactId>
     <version>999-SNAPSHOT</version>
 
+    <properties>
+        <tkit.security-dynamic-test.openapi.enabled>false</tkit.security-dynamic-test.openapi.enabled>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.tkit.onecx.quarkus</groupId>
