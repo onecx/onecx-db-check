@@ -14,7 +14,7 @@
     <version>999-SNAPSHOT</version>
 
     <properties>
-        <tkit.security-dynamic-test.openapi.enabled>false</tkit.security-dynamic-test.openapi.enabled>
+        <onecx.tkit-dynamic-test-openapi.enabled>false</onecx.tkit-dynamic-test-openapi.enabled>
     </properties>
 
     <dependencies>
