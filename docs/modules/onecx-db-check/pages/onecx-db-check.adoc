@@ -1,4 +1,3 @@
-:summaryTableId: onecx-db-check
 [.configuration-legend]
 icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime
 [.configuration-reference.searchable, cols="80,.^10,.^10"]
@@ -9,6 +8,10 @@ h|Type
 h|Default
 
 a| [[onecx-db-check_onecx-db-check-enabled]] [.property-path]##link:#onecx-db-check_onecx-db-check-enabled[`onecx.db-check.enabled`]##
+ifdef::add-copy-button-to-config-props[]
+config_property_copy_button:+++onecx.db-check.enabled+++[]
+endif::add-copy-button-to-config-props[]
+
 
 [.description]
 --
@@ -26,6 +29,10 @@ endif::add-copy-button-to-env-var[]
 |`true`
 
 a| [[onecx-db-check_onecx-db-check-sleep]] [.property-path]##link:#onecx-db-check_onecx-db-check-sleep[`onecx.db-check.sleep`]##
+ifdef::add-copy-button-to-config-props[]
+config_property_copy_button:+++onecx.db-check.sleep+++[]
+endif::add-copy-button-to-config-props[]
+
 
 [.description]
 --
@@ -39,7 +46,7 @@ ifndef::add-copy-button-to-env-var[]
 Environment variable: `+++ONECX_DB_CHECK_SLEEP+++`
 endif::add-copy-button-to-env-var[]
 --
-|link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[Duration] link:#duration-note-anchor-{summaryTableId}[icon:question-circle[title=More information about the Duration format]]
+|link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[Duration] link:#duration-note-anchor-onecx-db-check[icon:question-circle[title=More information about the Duration format]]
 |`PT2S`
 
 |===
@@ -63,5 +70,3 @@ In other cases, the simplified format is translated to the `java.time.Duration` 
 * If the value is a number followed by `d`, it is prefixed with `P`.
 ====
 endif::no-duration-note[]
-
-:!summaryTableId:
