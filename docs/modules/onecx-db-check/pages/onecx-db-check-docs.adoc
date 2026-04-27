@@ -1,10 +1,12 @@
 
 include::onecx-db-check-attributes.adoc[opts=optional]
 
-=== Default properties
+{docker-registry}[Link to Docker registry]
+
+== Default properties
 
 .{properties-file}
-[%collapsible%open]
+[%collapsible]
 ====
 [source,properties,subs=attributes+]
 ----
@@ -15,26 +17,21 @@ quarkus.datasource.devservice.enabled=false
 ----
 ====
 
-=== Extensions
-
+== Extensions
+.Extensions List
+[%collapsible]
+====
 include::onecx-db-check-extensions.adoc[opts=optional]
+====
 
-=== Container
+== Helm
 
-{docker-registry}[Docker registry]
+{helm-registry}[Link to Helm registry]
 
-
-=== Helm
-
-{helm-registry}[Helm registry]
-
-Default values
-
-.{helm-file}
+.Default values in {helm-file}
 [source,yaml]
 ----
 app:
   image:
     repository: "onecx/onecx-db-check"
 ----
-

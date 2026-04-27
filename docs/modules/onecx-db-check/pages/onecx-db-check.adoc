@@ -7,7 +7,7 @@ h|[.header-title]##Configuration property##
 h|Type
 h|Default
 
-a| [[onecx-db-check_onecx-db-check-enabled]] [.property-path]##link:#onecx-db-check_onecx-db-check-enabled[`onecx.db-check.enabled`]##
+a| [[onecx-db-check_onecx-db-check-enabled]] [.property-path]##link:#onecx-db-check_onecx-db-check-enabled[`+++onecx.db-check.enabled+++`]##
 ifdef::add-copy-button-to-config-props[]
 config_property_copy_button:+++onecx.db-check.enabled+++[]
 endif::add-copy-button-to-config-props[]
@@ -26,9 +26,9 @@ Environment variable: `+++ONECX_DB_CHECK_ENABLED+++`
 endif::add-copy-button-to-env-var[]
 --
 |boolean
-|`true`
+|`+++true+++`
 
-a| [[onecx-db-check_onecx-db-check-sleep]] [.property-path]##link:#onecx-db-check_onecx-db-check-sleep[`onecx.db-check.sleep`]##
+a| [[onecx-db-check_onecx-db-check-sleep]] [.property-path]##link:#onecx-db-check_onecx-db-check-sleep[`+++onecx.db-check.sleep+++`]##
 ifdef::add-copy-button-to-config-props[]
 config_property_copy_button:+++onecx.db-check.sleep+++[]
 endif::add-copy-button-to-config-props[]
@@ -47,7 +47,7 @@ Environment variable: `+++ONECX_DB_CHECK_SLEEP+++`
 endif::add-copy-button-to-env-var[]
 --
 |link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[Duration] link:#duration-note-anchor-onecx-db-check[icon:question-circle[title=More information about the Duration format]]
-|`PT2S`
+|`+++PT2S+++`
 
 |===
 
