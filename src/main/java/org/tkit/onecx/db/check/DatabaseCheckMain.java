@@ -36,7 +36,7 @@ public class DatabaseCheckMain implements QuarkusApplication {
 
         // check database
         while (true) {
-            try (Connection connection = dataSource.getConnection()) {
+            try (Connection _ = dataSource.getConnection()) {
                 log.info("Database connection has been established.");
                 return 0;
             } catch (Exception ex) {
