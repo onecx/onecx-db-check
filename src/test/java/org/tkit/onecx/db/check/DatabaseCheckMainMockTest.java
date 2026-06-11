@@ -15,6 +15,7 @@ import io.quarkus.test.junit.QuarkusTest;
 class DatabaseCheckMainMockTest extends AbstractTest {
 
     @Test
+    @SuppressWarnings("java:S1612")
     void testException() throws SQLException {
 
         var config = Mockito.mock(DatabaseCheckConfig.class);
@@ -33,6 +34,7 @@ class DatabaseCheckMainMockTest extends AbstractTest {
     }
 
     @Test
+    @SuppressWarnings("java:S1612")
     void testDisableConfig() {
 
         var config = Mockito.mock(DatabaseCheckConfig.class);
